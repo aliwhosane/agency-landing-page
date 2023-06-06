@@ -17,10 +17,10 @@ const Header = () => {
               alt="Tape A Tale"
             />
           </Link>
-          <div className="flex space-x-4 text-gray-200">
+          {/* <div className="flex space-x-4 text-gray-200">
             <Link href={`/`}> Who We Are</Link>
             <Link href={`/`}>Services</Link>
-          </div>
+          </div> */}
         </div>
       </div>
     </nav>
