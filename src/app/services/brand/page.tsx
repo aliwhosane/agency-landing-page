@@ -1,4 +1,5 @@
 import React from "react";
+import ContactSection from "@/components/ContactSection";
 import Image from "next/image";
 
 const BrandPage = () => {
@@ -117,6 +118,7 @@ const BrandPage = () => {
           </p>
         </div>
       </section>
+      <ContactSection />
     </div>
   );
 };
