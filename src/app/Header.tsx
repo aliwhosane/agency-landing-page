@@ -6,7 +6,7 @@ const Header = () => {
   return (
     <nav className=" sticky top-0 z-10 bg-black backdrop-filter backdrop-blur-lg bg-opacity-90 border-b border-gray-800">
       <div className=" max-w-5xl mx-auto px-4">
-        <div className="flex items-center justify-between h-16">
+        <div className="flex items-center justify-center h-16">
           {/* <span className=" text-2xl font-semibold text-gray-200">Logo</span> */}
           <Link href={`/`}>
             {" "}

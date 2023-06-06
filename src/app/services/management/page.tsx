@@ -24,7 +24,7 @@ const ManagementPage = () => {
             <a href="#" className="flex justify-center items-center my-6">
               <Image
                 alt="amandeep image"
-                src="/mcdonalds.svg"
+                src="/aman.png"
                 width={128}
                 height={128}
               />
@@ -50,7 +50,7 @@ const ManagementPage = () => {
             <a href="#" className="flex justify-center items-center my-6">
               <Image
                 alt="mehak image"
-                src="/mcdonalds.svg"
+                src="/mehak.png"
                 width={128}
                 height={128}
               />
