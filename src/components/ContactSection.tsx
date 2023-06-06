@@ -13,7 +13,7 @@ const ContactSection = () => {
 
       <div className="flex flex-wrap">
         <div className="grow-0 shrink-0 basis-auto mb-12 lg:mb-0 w-full lg:w-5/12 px-3 lg:px-6">
-          <form>
+          <form action="mailto:contact@tapeatale.com" method="post">
             <div className="form-group mb-6">
               <input
                 type="text"
