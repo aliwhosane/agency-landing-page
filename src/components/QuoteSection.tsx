@@ -17,7 +17,7 @@ const QuoteSection = () => {
     },
   };
   return (
-    <div className="h-[50vh] p-0 flex items-center justify-center mx-auto  bg-black   bg-black border-b-2 border-yellow-50">
+    <div className="h-[50vh] p-0 flex items-center justify-center mx-auto  bg-black border-b-2 border-yellow-50">
       <motion.p
         variants={textAnimation}
         initial="hidden"

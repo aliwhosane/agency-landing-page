@@ -1,16 +1,15 @@
-import QuoteSection from "@/components/QuoteSection";
-import CompanySection from "@/components/CompanySection";
-import ServiceSection from "@/components/ServiceSection";
-import PartnerSection from "@/components/PartnerSection";
-import ContactSection from "@/components/ContactSection";
+import { BasicSection, BannerSection, ServiceSection } from "@/components";
 export default function Home() {
   return (
-    <div className=" h-full">
-      <QuoteSection />
-      <CompanySection />
-      <ServiceSection />
-      <PartnerSection />
-      <ContactSection />
+    <div className="overflow-hidden">
+      <BannerSection />
+      <div className="mt-12 padding-x padding-y max-width" id="discover">
+        <div className="home__text-container">
+          <h1 className="text-4xl font-extrabold">SERVICES</h1>
+          <p>What do we do?</p>
+        </div>
+        <ServiceSection />
+      </div>
     </div>
   );
 }
