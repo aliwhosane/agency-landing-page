@@ -25,36 +25,118 @@ export const footerLinks = [
       name:'Corporate Workshop',
       link:'services/workshop',
       desc:'',
-      image:'/workshop.svg'
+      image:'/workshop.png'
     },
     {
       name:'Corporate Entertainment',
-      link:'services/workshop',
+      link:'services/entertainment',
       desc:'',
-      image:'/workshop.svg'
+      image:'/entertainment.png'
     },
     {
       name:'Artist Management',
-      link:'services/workshop',
+      link:'services/management',
       desc:'',
-      image:'/workshop.svg'
+      image:'/management.png'
     },
     {
       name:'Training Writers',
-      link:'services/workshop',
+      link:'services/training',
       desc:'',
-      image:'/workshop.svg'
+      image:'/training.png'
     },
     {
       name:'Writing For You',
-      link:'services/workshop',
+      link:'services/writing',
       desc:'',
-      image:'/workshop.svg'
+      image:'/writing.png'
     },
     {
       name:'Brand Collaborations',
-      link:'services/workshop',
+      link:'services/brand',
       desc:'',
-      image:'/workshop.svg'
+      image:'/brand.png'
     }
   ]
+
+  export const BrandColaborations = [
+    {
+      id:'mcdonalds',
+      name:'McDonalds',
+      image: '/mcdonalds.svg',
+      desc: 'descriptions here',
+      stats: [{image: '/views.svg', title: 'Total Views',
+        value: '210K'},{image: '/likes.svg', title: 'Total Likes',
+        value: '21K'},{image: '/engagement.svg', title: 'Total Engmnt',
+        value: '600K'}],
+      sections: [{title: 'Campaign Overview', text:'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque harum, atque voluptatibus nam, voluptates quas nisi aut laborum, vero sequi iste quia minus? Dolorem ad hic culpa? Voluptatem, hic nostrum? Eaque harum, atque voluptatibus nam, voluptates quas nisi aut laborum, vero sequi'}, {title: 'Content Theme', text:'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque harum, atque voluptatibus nam, voluptates quas nisi aut laborum, vero sequi iste quia minus? Dolorem ad hic culpa? Voluptatem, hic nostrum? Eaque harum, atque voluptatibus nam, voluptates quas nisi aut laborum, vero sequi'}, {title: 'Challenges Faced', text:'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque harum, atque voluptatibus nam, voluptates quas nisi aut laborum, vero sequi iste quia minus? Dolorem ad hic culpa? Voluptatem, hic nostrum? Eaque harum, atque voluptatibus nam, voluptates quas nisi aut laborum, vero sequi'}],
+      link: '/services/brand/mcdonalds'
+    },
+    {
+      id:'netflix',
+      name:'Netflix',
+      image: '/netflix.svg',
+      desc: 'descriptions here',
+      stats: [{image: '/views.svg', title: 'Total Views',
+      value: '210K'},{image: '/likes.svg', title: 'Total Likes',
+      value: '21K'},{image: '/engagement.svg', title: 'Total Engmnt',
+      value: '600K'}],
+      sections: [{title: 'Campaign Overview', text:'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque harum, atque voluptatibus nam, voluptates quas nisi aut laborum, vero sequi iste quia minus? Dolorem ad hic culpa? Voluptatem, hic nostrum? Eaque harum, atque voluptatibus nam, voluptates quas nisi aut laborum, vero sequi'}, {title: 'Content Theme', text:'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque harum, atque voluptatibus nam, voluptates quas nisi aut laborum, vero sequi iste quia minus? Dolorem ad hic culpa? Voluptatem, hic nostrum? Eaque harum, atque voluptatibus nam, voluptates quas nisi aut laborum, vero sequi'}, {title: 'Challenges Faced', text:'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque harum, atque voluptatibus nam, voluptates quas nisi aut laborum, vero sequi iste quia minus? Dolorem ad hic culpa? Voluptatem, hic nostrum? Eaque harum, atque voluptatibus nam, voluptates quas nisi aut laborum, vero sequi'}],
+      link: '/services/brand/netflix'
+    },
+    {
+      id:'sweettruth',
+      name:'Sweet Truth',
+      image: '/sweettruth.svg',
+      desc: 'descriptions here',
+      stats: [{image: '/views.svg', title: 'Total Views',
+      value: '210K'},{image: '/likes.svg', title: 'Total Likes',
+      value: '21K'},{image: '/engagement.svg', title: 'Total Engmnt',
+      value: '600K'}],
+      sections: [{title: 'Campaign Overview', text:'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque harum, atque voluptatibus nam, voluptates quas nisi aut laborum, vero sequi iste quia minus? Dolorem ad hic culpa? Voluptatem, hic nostrum? Eaque harum, atque voluptatibus nam, voluptates quas nisi aut laborum, vero sequi'}, {title: 'Content Theme', text:'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque harum, atque voluptatibus nam, voluptates quas nisi aut laborum, vero sequi iste quia minus? Dolorem ad hic culpa? Voluptatem, hic nostrum? Eaque harum, atque voluptatibus nam, voluptates quas nisi aut laborum, vero sequi'}, {title: 'Challenges Faced', text:'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque harum, atque voluptatibus nam, voluptates quas nisi aut laborum, vero sequi iste quia minus? Dolorem ad hic culpa? Voluptatem, hic nostrum? Eaque harum, atque voluptatibus nam, voluptates quas nisi aut laborum, vero sequi'}],
+      link: '/services/brand/sweettruth'
+    },
+    {
+      id:'amazonprime',
+      name:'Amazon Prime',
+      image: '/amazonprime.svg',
+      desc: 'descriptions here',
+      stats: [{image: '/views.svg', title: 'Total Views',
+      value: '210K'},{image: '/likes.svg', title: 'Total Likes',
+      value: '21K'},{image: '/engagement.svg', title: 'Total Engmnt',
+      value: '600K'}],
+      sections: [{title: 'Campaign Overview', text:'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque harum, atque voluptatibus nam, voluptates quas nisi aut laborum, vero sequi iste quia minus? Dolorem ad hic culpa? Voluptatem, hic nostrum? Eaque harum, atque voluptatibus nam, voluptates quas nisi aut laborum, vero sequi'}, {title: 'Content Theme', text:'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque harum, atque voluptatibus nam, voluptates quas nisi aut laborum, vero sequi iste quia minus? Dolorem ad hic culpa? Voluptatem, hic nostrum? Eaque harum, atque voluptatibus nam, voluptates quas nisi aut laborum, vero sequi'}, {title: 'Challenges Faced', text:'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque harum, atque voluptatibus nam, voluptates quas nisi aut laborum, vero sequi iste quia minus? Dolorem ad hic culpa? Voluptatem, hic nostrum? Eaque harum, atque voluptatibus nam, voluptates quas nisi aut laborum, vero sequi'}],
+      link: '/services/brand/amazonprime'
+    }
+    
+  ]
+
+  export const Artists = [{
+    name: 'Amandeep Singh',
+    image: '/artists/amandeep.png',
+    profession:'Artist',
+    desc:'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque harum, atque voluptatibus n',
+    facebook: 'amandeep.khayal',
+    twitter: '',
+    instagram: 'https://www.instagram.com/amandeep.khayal/'
+  },
+  {
+    name: 'Kopal Khanna',
+    image: '/artists/kopal.png',
+    profession:'Artist',
+    desc:'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque harum, atque voluptatibus n',
+    facebook: '',
+    twitter: '',
+    instagram: 'https://www.instagram.com/kopalkhanna/'
+  },
+  {
+    name: 'Mehak Mirza Prabhu',
+    image: '/artists/mehak.png',
+    profession:'Artist',
+    desc:'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque harum, atque voluptatibus n',
+    facebook: '',
+    twitter: '',
+    instagram: 'https://www.instagram.com/mehak.mirza.prabhu/'
+  }
+]
+

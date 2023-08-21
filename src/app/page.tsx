@@ -1,4 +1,4 @@
-import { BasicSection, BannerSection, ServiceSection } from "@/components";
+import { BannerSection, ContactSection, ServiceSection } from "@/components";
 export default function Home() {
   return (
     <div className="overflow-hidden">
@@ -8,7 +8,9 @@ export default function Home() {
           <h1 className="text-4xl font-extrabold">SERVICES</h1>
           <p>What do we do?</p>
         </div>
+        <div id="service"></div>
         <ServiceSection />
+        <ContactSection />
       </div>
     </div>
   );

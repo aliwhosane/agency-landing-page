@@ -4,7 +4,7 @@ import { Services } from "../../constants";
 
 const ServiceSection = () => {
   return (
-    <section>
+    <section className="m-4">
       <div className="home__services-wrapper">
         {Services.map(({ name, link, desc, image }) => (
           <div key={link}>

@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const MoreInfo = () => {
   return (
-    <section className="flex flex-col text-center items-center justify-center text-white py-28">
+    <section className="flex flex-col text-center items-center justify-center text-crayola-blue-default py-28">
       <h1 className=" text-3xl font-Lexend font-extabold">
         More Info coming soon...
       </h1>

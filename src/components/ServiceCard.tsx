@@ -10,14 +10,13 @@ const ServiceCard = ({ image, desc, name, link }: ServiceCardProps) => {
           <h2 className="service-card__content-title">{name}</h2>
         </div>
         <p className="flex mt-6 text-[32] font-extrabold"></p>
-        <div className="relative w-full h-40 my-3">
+        <div className="relative w-full h-40 ">
           <Image
             src={image}
-            width={50}
-            height={50}
+            fill
             priority
             alt={name}
-            className=" self-center p-12"
+            className=" self-center object-contain"
           />
         </div>
         <div className="relative flex w-full mt-2">
