@@ -17,7 +17,7 @@ const TrainingPage = () => {
           it&apos;s for platforms, events, ads, or brands.
         </p>
       </section>
-      <section className="flex flex-col justify-center antialiased bg-gray-900 text-gray-200 min-h-screen">
+      <section className="flex flex-col justify-center antialiased  text-gray-200 min-h-screen">
         <div className="max-w-6xl mx-auto p-4 sm:px-6 h-full">
           <article className="max-w-sm mx-auto md:max-w-none grid md:grid-cols-2 gap-6 md:gap-8 lg:gap-12 xl:gap-16 items-center">
             <a className="relative block group" href="#0">
@@ -58,14 +58,14 @@ const TrainingPage = () => {
                 </div>
                 <h3 className="text-2xl lg:text-3xl font-bold leading-tight mb-2">
                   <a
-                    className="hover:text-gray-100 transition duration-150 ease-in-out"
+                    className="text-black transition duration-150 ease-in-out"
                     href="#0"
                   >
                     Learning the skills of writing from those who inspire you
                   </a>
                 </h3>
               </header>
-              <p className="text-lg text-gray-400 flex-grow">
+              <p className="text-lg text-gray-800 flex-grow">
                 Story Circle by Tape A Tale is a 3 month long storytelling and
                 writing program where you get to learn the ins and outs of
                 storytelling from your very favorite storytellers and writers,

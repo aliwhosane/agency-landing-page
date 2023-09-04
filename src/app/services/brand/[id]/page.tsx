@@ -10,20 +10,14 @@ const BrandDetailPage = ({ params }: { params: { id: string } }) => {
   )[0];
   const propsForStatistics = stats as StatType[];
   return (
-    <section className="p-16 lg:w-2/3">
+    <section className="p-16 lg:w-2/3 justify-center">
       <h1 className="stat__brand-title text-salmon-pink-default mb-4">
         {name}
       </h1>
       <div className="flex gap-12 flex-col lg:flex-row">
         <BrandStatistic stats={propsForStatistics} />
       </div>
-      <p className="basic__para mt-5">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque harum,
-        atque voluptatibus nam, voluptates quas nisi aut laborum, vero sequi
-        iste quia minus? Dolorem ad hic culpa? Voluptatem, hic nostrum? Eaque
-        harum, atque voluptatibus nam, voluptates quas nisi aut laborum, vero
-        sequi
-      </p>
+      <p className="basic__para mt-5">{desc}</p>
       <BrandDetails details={sections as BrandDetailsType[]} />
     </section>
   );

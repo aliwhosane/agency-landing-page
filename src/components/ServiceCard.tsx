@@ -1,10 +1,23 @@
+"use client";
 import Image from "next/image";
 import Link from "next/link";
+import { motion } from "framer-motion";
+import { useInView } from "react-intersection-observer";
 import { ServiceCardProps } from "../../types";
 
 const ServiceCard = ({ image, desc, name, link }: ServiceCardProps) => {
+  const [inViewRef, inView] = useInView({
+    triggerOnce: true, // Trigger the animation only once
+    threshold: 0.1, // Percentage of the component that's visible
+  });
   return (
-    <div className="service-card group">
+    <motion.div
+      ref={inViewRef}
+      initial={{ opacity: 0, x: -50 }}
+      animate={{ opacity: inView ? 1 : 0, x: inView ? 0 : -50 }}
+      transition={{ duration: 0.75 }}
+      className="service-card group"
+    >
       <Link href={link}>
         <div className="service-card__content">
           <h2 className="service-card__content-title">{name}</h2>
@@ -33,7 +46,7 @@ const ServiceCard = ({ image, desc, name, link }: ServiceCardProps) => {
           </div>
         </div>
       </Link>
-    </div>
+    </motion.div>
   );
 };
 
