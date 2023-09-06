@@ -1,9 +1,9 @@
 import { ServiceCardProps } from "../types";
 
-export const tapeataleCreds = {
-  user: process.env.EMAIL_USER,
-  pass: process.env.EMAIL_PASS
-}
+// export const tapeataleCreds = {
+//   user: process.env.EMAIL_USER,
+//   pass: process.env.EMAIL_PASS
+// }
 
 export const footerLinks = [
     {
