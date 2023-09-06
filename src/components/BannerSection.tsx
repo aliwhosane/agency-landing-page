@@ -1,16 +1,10 @@
 "use client";
 import Link from "next/link";
 import CustomButton from "./CustomButton";
-import Image from "next/image";
-import { motion } from "framer-motion";
-import { useInView } from "react-intersection-observer";
 
 const BannerSection = () => {
   const handleScroll = () => {};
-  const [inViewRef, inView] = useInView({
-    triggerOnce: true, // Trigger the animation only once
-    threshold: 0.3, // Percentage of the component that's visible
-  });
+
   return (
     <div className="basic">
       <div className="flex-1 pt-32 padding-x">
@@ -27,7 +21,7 @@ const BannerSection = () => {
         </Link>
       </div>
       <div className="basic__image-container">
-        <motion.div
+        {/* <motion.div
           ref={inViewRef}
           initial={{ opacity: 0, y: -75 }}
           animate={{ opacity: inView ? 1 : 0, y: inView ? 0 : -75 }}
@@ -40,7 +34,7 @@ const BannerSection = () => {
             fill
             className="object-contain"
           />
-        </motion.div>
+        </motion.div> */}
         <div className="basic__image-overlay" />
       </div>
     </div>
