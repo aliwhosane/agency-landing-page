@@ -81,7 +81,7 @@ const Header = () => {
           <li>
             <a
               className="text-sm text-gray-400 hover:text-gray-500"
-              href="http://localhost:3000/#home"
+              href="https://tapeatale.vercel.app/#home"
             >
               Home
             </a>
@@ -105,7 +105,7 @@ const Header = () => {
           <li>
             <a
               className="text-sm text-gray-400 hover:text-gray-500"
-              href="http://localhost:3000/#whoarewe"
+              href="https://tapeatale.vercel.app/#whoarewe"
             >
               Who Are We
             </a>
@@ -129,7 +129,7 @@ const Header = () => {
           <li>
             <a
               className="text-sm text-gray-400 hover:text-gray-500"
-              href="http://localhost:3000/#service"
+              href="https://tapeatale.vercel.app/#service"
             >
               Services
             </a>
@@ -153,7 +153,7 @@ const Header = () => {
           <li>
             <a
               className="text-sm  text-gray-400 hover:text-gray-500 "
-              href="http://localhost:3000/#contact"
+              href="https://tapeatale.vercel.app/#contact"
             >
               Contact Us
             </a>
@@ -207,7 +207,7 @@ const Header = () => {
               <li className="mb-1">
                 <a
                   className="block p-4 text-sm font-semibold text-gray-400 hover:bg-blue-50 hover:text-blue-600 rounded"
-                  href="http://localhost:3000/#home"
+                  href="https://tapeatale.vercel.app/#home"
                 >
                   Home
                 </a>
@@ -215,7 +215,7 @@ const Header = () => {
               <li className="mb-1">
                 <a
                   className="block p-4 text-sm font-semibold text-gray-400 hover:bg-blue-50 hover:text-blue-600 rounded"
-                  href="http://localhost:3000/#whoarewe"
+                  href="https://tapeatale.vercel.app/#whoarewe"
                 >
                   Who Are We
                 </a>
@@ -223,7 +223,7 @@ const Header = () => {
               <li className="mb-1">
                 <a
                   className="block p-4 text-sm font-semibold text-gray-400 hover:bg-blue-50 hover:text-blue-600 rounded"
-                  href="http://localhost:3000/#service"
+                  href="https://tapeatale.vercel.app/#service"
                 >
                   Services
                 </a>
@@ -231,7 +231,7 @@ const Header = () => {
               <li className="mb-1">
                 <a
                   className="block p-4 text-sm font-semibold text-gray-400 hover:bg-blue-50 hover:text-blue-600 rounded"
-                  href="http://localhost:3000/#contact"
+                  href="https://tapeatale.vercel.app/#contact"
                 >
                   Contact Us
                 </a>
