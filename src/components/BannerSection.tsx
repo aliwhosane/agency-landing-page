@@ -35,7 +35,7 @@ const BannerSection = () => {
             className="object-contain"
           />
         </motion.div> */}
-        <div className="basic__image-overlay" />
+        <div className="basic__image-overlay inset" />
       </div>
     </div>
   );
