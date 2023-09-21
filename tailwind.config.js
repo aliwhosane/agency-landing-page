@@ -12,6 +12,15 @@ module.exports = {
       "1/2": "50vh",
     },
     extend: {
+      inset: {
+        "-right-21": { right: "-21%" },
+      },
+      height: {
+        inherit: "inherit",
+      },
+      width: {
+        banner: "52%",
+      },
       grayscale: {
         100: "100%",
         0: "0%",

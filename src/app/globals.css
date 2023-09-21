@@ -148,7 +148,7 @@ html {
 }
 
 .basic__image-overlay {
-  @apply absolute xl:-top-24 xl:-right-1/2 -right-1/4 bg-right-bg bg-repeat-round -z-10 w-full xl:h-screen h-[590px] overflow-hidden;
+  @apply absolute xl:-top-24 -inset-right-21 -right-1/4 bg-right-bg  -z-10 w-full xl:h-inherit xl:w-banner h-[590px] bg-repeat-round overflow-hidden;
 }
 .basic__para {
   @apply mt-6 mb-2 leading-6

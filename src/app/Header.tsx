@@ -18,7 +18,7 @@ const Header = () => {
 
     const toggleMenu = () => {
       if (menus.current) {
-        for (let menu of menus.current) {
+        for (let menu of [...menus.current]) {
           menu.classList.toggle("hidden");
         }
       }
