@@ -19,7 +19,7 @@ module.exports = {
         inherit: "inherit",
       },
       width: {
-        banner: "52%",
+        banner: "70%",
       },
       grayscale: {
         100: "100%",

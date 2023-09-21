@@ -140,7 +140,7 @@ html {
 }
 
 .basic__image-container {
-  @apply xl:flex-[1.5] hidden lg:flex justify-end items-end w-full xl:h-[80vh];
+  @apply xl:flex-[1.5] hidden lg:flex justify-end items-end w-full xl:h-[90vh];
 }
 
 .basic__image {
@@ -148,7 +148,7 @@ html {
 }
 
 .basic__image-overlay {
-  @apply absolute  -right-1/4 bg-right-bg  -z-10 w-full xl:h-inherit xl:w-banner lg:h-[590px] bg-repeat-round overflow-hidden;
+  @apply absolute  -right-1/4 bg-right-bg  -z-10 w-full  xl:h-inherit xl:w-banner lg:h-[590px] bg-repeat-round overflow-hidden;
 }
 .basic__para {
   @apply mt-6 mb-2 leading-6
