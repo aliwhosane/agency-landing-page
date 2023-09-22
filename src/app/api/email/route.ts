@@ -19,16 +19,24 @@ export async function POST(request:NextRequest) {
 });
 const accessToken = oauth2Client.getAccessToken();
     
+    // const transport = nodemailer.createTransport({
+    //     service:'gmail',
+    //     auth: {
+    //         type: 'OAuth2',
+    //     user: 'contact@tapeatale.com',
+    //     clientId: tapeataleCreds.gci,
+    //     clientSecret: tapeataleCreds.gcs,
+    //     refreshToken: tapeataleCreds.grt,
+    //     accessToken:accessToken
+    //     }
+    // });
+
     const transport = nodemailer.createTransport({
         service:'gmail',
         auth: {
-            type: 'OAuth2',
-        user: 'contact@tapeatale.com',
-        clientId: tapeataleCreds.gci,
-        clientSecret: tapeataleCreds.gcs,
-        refreshToken: tapeataleCreds.grt,
-        accessToken:accessToken
-        }
+            user: tapeataleCreds.mailId,
+            pass: tapeataleCreds.mailPassword,
+          },
     });
 
     const mailOptions: Mail.Options = {

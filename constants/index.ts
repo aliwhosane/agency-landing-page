@@ -7,6 +7,8 @@ redirectUri:process.env.REDIRECT_URI,
 gci:process.env.GOOGLE_CLIENT_ID ,
 gcs:process.env.GOOGLE_CLIENT_SECRET,
 grt:process.env.GOOGLE_REFRESH_TOKEN,
+mailId:process.env.NODE_MAILER_ID,
+mailPassword:process.env.NODEMAILER_PASSWORD
 }
 
 export const footerLinks = [

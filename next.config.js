@@ -1,13 +1,4 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {
-  async rewrites() {
-    return [
-      {
-        source: "/api/email",
-        destination: "http://tapeatale.vercel.app/",
-      },
-    ];
-  },
-};
+const nextConfig = {};
 
 module.exports = nextConfig;
