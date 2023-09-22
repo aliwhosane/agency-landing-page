@@ -1,7 +1,8 @@
 "use client";
 import React from "react";
 import { useForm } from "react-hook-form";
-import { sendMail } from "../../utils/mailService";
+import { sendMail } from "../../utils/send-email";
+
 export type FormData = {
   fname: string;
   lname: string;
@@ -15,7 +16,7 @@ const ContactSection = () => {
   const apiEndpoint = "/api/email";
 
   function onSubmit(data: FormData) {
-    sendMail("yeh chal gaya", "contact@tapeatale.com", "just checking");
+    sendMail(data);
   }
   return (
     <>
