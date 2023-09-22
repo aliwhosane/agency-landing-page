@@ -7,7 +7,7 @@ const OAuth2 = google.auth.OAuth2;
 
 
 export async function POST(request:NextRequest) {
-    const { email, name, message} = await request.json();
+    const { email, fname, lname, phone, message} = await request.json();
 
     const oauth2Client = new OAuth2(
        tapeataleCreds.gci,
@@ -17,7 +17,7 @@ export async function POST(request:NextRequest) {
    oauth2Client.setCredentials({
     refresh_token: tapeataleCreds.grt
 });
-const accessToken = oauth2Client.getAccessToken()
+const accessToken = oauth2Client.getAccessToken();
     
     const transport = nodemailer.createTransport({
         service:'gmail',
@@ -32,10 +32,10 @@ const accessToken = oauth2Client.getAccessToken()
     });
 
     const mailOptions: Mail.Options = {
-        from: process.env.emailId,
-        to:process.env.emailId,
-        subject: `Message from ${name} (${email})`,
-        text:message
+        from: 'contact@tapeatale.com',
+        to:'contact@tapeatale.com',
+        subject: `Message from ${fname} ${lname} (${email})`,
+        text: `${message}. <br/> The phone number is ${phone}`
     }
 
     const sendMailPromise = () => new Promise<string>((resolve,reject) => {
@@ -52,6 +52,7 @@ const accessToken = oauth2Client.getAccessToken()
         await sendMailPromise();
         return NextResponse.json({message:'Email sent'});
     } catch(err) {
+        console.log(err);
         return NextResponse.json({error:err}, {status:500});
     }
 
