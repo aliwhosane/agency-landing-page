@@ -1,11 +1,27 @@
 import React from "react";
+import { useForm } from "react-hook-form";
+import { sendMail } from "../../utils/send-email";
+
+export type FormData = {
+  fname: string;
+  lname: string;
+  phone: string;
+  email: string;
+  message: string;
+};
 
 const ContactSection = () => {
+  const { register, handleSubmit } = useForm<FormData>();
+  const apiEndpoint = "/api/email";
+
+  function onSubmit(data: FormData) {
+    sendMail(data);
+  }
   return (
     <>
       <div className="container mx-auto my-6 px-4 lg:px-20">
         <div className="w-full p-8 my-4 md:px-12 lg:w-9/12 lg:pl-20 lg:pr-40 mr-auto rounded-2xl shadow-2xl">
-          <form action="mailto:contact@tapeatale.com">
+          <form onSubmit={handleSubmit(onSubmit)}>
             <div className="flex">
               <h1 className="font-bold uppercase text-5xl">
                 Send us a <br /> message
@@ -16,27 +32,32 @@ const ContactSection = () => {
                 className="w-full bg-gray-100 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"
                 type="text"
                 placeholder="First Name*"
+                {...register("fname", { required: true })}
               />
               <input
                 className="w-full bg-gray-100 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"
                 type="text"
                 placeholder="Last Name*"
+                {...register("lname", { required: false })}
               />
               <input
                 className="w-full bg-gray-100 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"
                 type="email"
                 placeholder="Email*"
+                {...register("email", { required: true })}
               />
               <input
                 className="w-full bg-gray-100 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"
                 type="number"
                 placeholder="Phone*"
+                {...register("phone", { required: true })}
               />
             </div>
             <div className="my-4">
               <textarea
                 placeholder="Message*"
                 className="w-full h-32 bg-gray-100 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"
+                {...register("message", { required: true })}
               ></textarea>
             </div>
             <div className="my-2 w-1/2 lg:w-1/4">
