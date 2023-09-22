@@ -31,12 +31,6 @@ export const footerLinks = [
 
   export const Services = [
     {
-      name:'Corporate Workshop',
-      link:'services/workshop',
-      desc:'',
-      image:'/workshop.png'
-    },
-    {
       name:'Corporate Entertainment',
       link:'services/entertainment',
       desc:'',
@@ -65,6 +59,12 @@ export const footerLinks = [
       link:'services/brand',
       desc:'',
       image:'/brand.png'
+    },
+    {
+      name:'Corporate Workshop',
+      link:'services/workshop',
+      desc:'',
+      image:'/workshop.png'
     }
   ]
 
