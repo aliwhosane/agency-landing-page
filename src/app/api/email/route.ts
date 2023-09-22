@@ -10,8 +10,11 @@ export async function POST(request:NextRequest) {
     const transport = nodemailer.createTransport({
         service:'gmail',
         auth: {
-            user:tapeataleCreds.emailId,
-            pass:tapeataleCreds.password
+            type: 'OAuth2',
+        user: 'contact@tapeatale.com',
+        clientId: tapeataleCreds.gci,
+        clientSecret: tapeataleCreds.gcs,
+        refreshToken: tapeataleCreds.grt,
         }
     });
 

@@ -2,8 +2,11 @@ import { ServiceCardProps } from "../types";
 
 export const tapeataleCreds = {
   domain: process.env.NEXT_PUBLIC_BASE_DOMAIN,
-  emailId: process.env.EMAIL_ID,
-  password: process.env.PASSWORD
+  baseurl:process.env.GOOGLE_ACCOUNTS_BASE_URL ,
+redirectUri:process.env.REDIRECT_URI,
+gci:process.env.GOOGLE_CLIENT_ID ,
+gcs:process.env.GOOGLE_CLIENT_SECRET,
+grt:process.env.GOOGLE_REFRESH_TOKEN,
 }
 
 export const footerLinks = [
