@@ -9,6 +9,7 @@ export function sendMail(data:FormData) {
     }).then(res => res.json()).then(response => {
         alert(response);
     }).catch(err => {
+        console.log(err);
         alert(err);
     });
 }
