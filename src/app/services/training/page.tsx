@@ -61,7 +61,7 @@ const TrainingPage = () => {
                     className="text-black transition duration-150 ease-in-out"
                     href="#0"
                   >
-                    Learning the skills of writing from those who inspire you
+                    Learning the skill of writing from those who inspire you
                   </a>
                 </h3>
               </header>

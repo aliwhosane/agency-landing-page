@@ -7,7 +7,9 @@ const ManagementPage = () => {
   return (
     <>
       <section className=" bg-mint-default lg:py-24 lg:px-24 flex flex-col text-center items-center justify-center text-white border-b-2 border-b-yellow-50 pb-3">
-        <h1 className="basic__title font-bold font-Lexend mb-4">Our Artists</h1>
+        <h1 className="basic__title font-bold font-Lexend mb-4">
+          Our Exclusive Artists
+        </h1>
         <p className="basic__subtitle font-Lexend self-start mx-6 text">
           They say poets and storytellers are like unicorns, but we know where
           to find them! Our artist management team exclusively represents the
