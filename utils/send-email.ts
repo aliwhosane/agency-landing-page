@@ -7,7 +7,7 @@ export function sendMail(data:FormData) {
         method:'POST',
         body:JSON.stringify(data),
     }).then(res => res.json()).then(response => {
-        alert(response.message);
+        alert(response);
     }).catch(err => {
         alert(err);
     });
