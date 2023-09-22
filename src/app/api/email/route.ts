@@ -9,7 +9,7 @@ const OAuth2 = google.auth.OAuth2;
 export async function POST(request:NextRequest) {
     const { email, fname, lname, phone, message} = await request.json();
 
-    const oauth2Client = new OAuth2(
+    const oauth2Client = await new OAuth2(
        tapeataleCreds.gci,
         tapeataleCreds.gcs,
         "https://developers.google.com/oauthplayground" // Redirect URL
