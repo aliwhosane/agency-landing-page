@@ -7,6 +7,7 @@ module.exports = {
 
   deploy: {
     production: {
+      key: "isayback.pem",
       user: "ubuntu",
       host: "13.212.34.159",
       ref: "origin/main",
