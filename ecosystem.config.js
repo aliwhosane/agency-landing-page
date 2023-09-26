@@ -14,8 +14,7 @@ module.exports = {
       repo: "https://github.com/aliwhosane/agency-landing-page",
       path: "/home/ubuntu",
       "pre-deploy-local": "",
-      "post-deploy":
-        "source ~/.nvm/nvm.sh && npm install && npm install && pm2 reload ecosystem.config.js --env production",
+      "post-deploy": "pm2 reload ecosystem.config.js --env production",
       "pre-setup": "",
       ssh_options: "ForwardAgent=yes",
     },
