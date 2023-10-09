@@ -8,8 +8,8 @@ module.exports = {
   deploy: {
     production: {
       key: "tapeatale.pem",
-      user: "ubuntu",
       host: "13.233.74.10",
+      user: "ubuntu",
       ref: "origin/main",
       repo: "https://github.com/aliwhosane/agency-landing-page",
       path: "/home/ubuntu",
