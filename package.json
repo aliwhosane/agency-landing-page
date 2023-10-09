@@ -10,7 +10,6 @@
     "export": "next export"
   },
   "dependencies": {
-    "@headlessui/react": "^1.7.15",
     "@types/node": "18.15.6",
     "@types/nodemailer": "^6.4.10",
     "@types/react": "18.0.28",
