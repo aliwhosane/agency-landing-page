@@ -15,7 +15,7 @@ module.exports = {
       path: "/home/ubuntu",
       "pre-deploy-local": "",
       "post-deploy":
-        "source ~/.nvm/nvm.sh && npm install && npm run build && pm2 reload ecosystem.config.js --node-args='--max-old-space-size=88192' --env production",
+        "source ~/.nvm/nvm.sh && npm install && npm run build --node-args='--max-old-space-size=88192' && pm2 reload ecosystem.config.js --env production",
       "pre-setup": "",
       ssh_options: "ForwardAgent=yes",
     },
