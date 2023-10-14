@@ -1,5 +1,26 @@
 import { ServiceCardProps } from "../types";
 
+export const HeaderLinks  = [
+  {
+    name: "Services",
+    submenu: true,
+    link:'/#services',
+    sublinks: [
+          { name: "Brand Collaborations", link: "/services/brand" },
+          { name: "Writing For You", link: "/services/writing" },
+          { name: "Exclusive Artists", link: "/services/management" },
+          { name: "Training Writers", link: "/services/training" },
+          { name: "Corporate Workshops", link: "/services/workshop" },
+          { name: "Corporate Entertainment", link: "/services/entertainment" },
+        ],
+  },
+  {
+    name: "About Us",
+    submenu: false,
+    link: '/#whoarewe'
+  },
+];
+
 export const tapeataleCreds = {
   domain: process.env.NEXT_PUBLIC_BASE_DOMAIN,
   baseurl:process.env.GOOGLE_ACCOUNTS_BASE_URL ,
@@ -232,15 +253,6 @@ export const footerLinks = [
     image: '/artists/ishpreet.png',
     profession:'Artist',
     desc:"Ishpreet Balbir's poetry is a journey through the landscapes of identity, culture, and self-discovery. With a keen eye for detail and a compassionate understanding of the human experience, Ishpreet's verses resonate deeply.",
-    facebook: '',
-    twitter: '',
-    instagram: 'https://www.instagram.com/mehak.mirza.prabhu/'
-  },
-  {
-    name: 'Mehak Mirza Prabhu',
-    image: '/artists/mehak.png',
-    profession:'Artist',
-    desc:"Mehak Mirza Prabhu's poetry is a symphony of emotions, melodies, and thoughts that come together to create a rich tapestry of human experiences.",
     facebook: '',
     twitter: '',
     instagram: 'https://www.instagram.com/mehak.mirza.prabhu/'

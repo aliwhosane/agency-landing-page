@@ -56,6 +56,19 @@ html {
   --card-border-rgb: 131, 134, 135;
 }
 
+.parent:hover .child {
+  opacity:1;
+  height:auto;
+  overflow:none;
+  transform: translateY(0);
+}
+.child {
+  opacity:0;
+  height:0;
+  overflow:hidden;
+  transform: translateY(-10%);
+}
+
 /* START: General styles */
 .max-width {
   @apply max-w-[1440px] mx-auto;

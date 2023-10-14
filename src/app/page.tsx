@@ -1,16 +1,20 @@
-import {
-  BannerSection,
-  CompanySection,
-  ContactSection,
-  ServiceSection,
-} from "@/components";
+import { CompanySection, ContactSection, ServiceSection } from "@/components";
+import CarouselSection from "@/components/CarouselSection";
 import Image from "next/image";
 export default function Home() {
   return (
     <div className="overflow-hidden">
       <div id="home"></div>
-      <BannerSection />
-      <div className="mt-12 padding-x padding-y max-width" id="discover">
+      <div className=" flex flex-col items-center justify-center">
+        {/* <h1 className="text-2xl font-bold mb-4">React Image Slider with Framer Motion</h1> */}
+        <div className="w-full h-full">
+          <CarouselSection />
+        </div>
+      </div>
+      <div
+        className="md:mt-12 mt-4 padding-x padding-y max-width"
+        id="discover"
+      >
         <div className="home__text-container">
           <div id="service"></div>
           <h1 className="text-4xl font-extrabold">SERVICES</h1>
