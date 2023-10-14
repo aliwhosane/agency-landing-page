@@ -1,11 +1,12 @@
 import { CompanySection, ContactSection, ServiceSection } from "@/components";
 import CarouselSection from "@/components/CarouselSection";
+import TellerSection from "@/components/TellerSection";
 import Image from "next/image";
 export default function Home() {
   return (
     <div className="overflow-hidden">
       <div id="home"></div>
-      <div className=" flex flex-col items-center justify-center">
+      <div className=" flex flex-col items-center justify-center md:min-h-[500]">
         {/* <h1 className="text-2xl font-bold mb-4">React Image Slider with Framer Motion</h1> */}
         <div className="w-full h-full">
           <CarouselSection />
@@ -21,6 +22,13 @@ export default function Home() {
           <p>What do we do?</p>
         </div>
         <ServiceSection />
+        <div className="home__text-container">
+          <div id="service"></div>
+          <h1 className="text-4xl font-extrabold self-center">
+            Our world of Artists
+          </h1>
+        </div>
+        <TellerSection />
         <CompanySection />
         <div id="contact"></div>
         <ContactSection />
