@@ -17,7 +17,7 @@ export default function Home() {
         id="discover"
       >
         <div className="home__text-container">
-          <div id="service"></div>
+          <div id="services"></div>
           <h1 className="text-4xl font-extrabold">SERVICES</h1>
           <p>What do we do?</p>
         </div>
