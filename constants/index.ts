@@ -17,7 +17,7 @@ export const HeaderLinks  = [
   {
     name: "About Us",
     submenu: false,
-    link: '/#whoarewe'
+    link: '/about'
   },
 ];
 

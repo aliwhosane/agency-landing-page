@@ -29,7 +29,7 @@ export default function Home() {
           </h1>
         </div>
         <TellerSection />
-        <CompanySection />
+        {/* <CompanySection /> */}
         <div id="contact"></div>
         <ContactSection />
       </div>
