@@ -108,7 +108,7 @@ export const footerLinks = [
       id:'okcupid',
       name:'OkCupid',
       image: '/okcupid.svg',
-      desc: `The campaign features a storytelling piece by Srithi Jha titled "Cheesy Stupid Ishq," centered around love and genuine connections, aiming to inspire audiences to embrace the depth and authenticity of romantic emotions. It highlights the power of vulnerability and each individual's unique journey in finding love.`,
+      desc: `The campaign features a storytelling piece by Sriti Jha titled "Cheesy Stupid Ishq," centered around love and genuine connections, aiming to inspire audiences to embrace the depth and authenticity of romantic emotions. It highlights the power of vulnerability and each individual's unique journey in finding love.`,
       stats: [{image: '/views.svg', title: 'Total Views',
         value: '210K'},{image: '/likes.svg', title: 'Total Likes',
         value: '21K'},{image: '/engagement.svg', title: 'Total Engmnt',
@@ -267,10 +267,19 @@ export const footerLinks = [
     instagram: 'https://www.instagram.com/yahyabootwala/'
   },
   {
+    name: 'Swastika Rajput',
+    image: '/artists/swastika.jpg',
+    profession:'Artist',
+    desc:'Swastika has has built a community of nearly 1 Million people through her stories and poetic dazzle.',
+    facebook: '',
+    twitter: '',
+    instagram: 'https://www.instagram.com/swastikaarajput/'
+  },
+  {
     name: 'Helly Shah',
     image: '/artists/helly.png',
     profession:'Artist',
-    desc:'Yahya Bootwala is a contemporary Indian storyteller and poet who has captivated audiences with his soul-stirring words and captivating performances.',
+    desc:'An empowered soul who although hails from a small town of Gujarat stands for equality, sophistication, and meaningful bondings.',
     facebook: '',
     twitter: '',
     instagram: 'https://www.instagram.com/Hellyshah_/'

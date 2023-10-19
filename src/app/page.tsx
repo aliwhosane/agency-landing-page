@@ -29,7 +29,6 @@ export default function Home() {
           </h1>
         </div>
         <TellerSection />
-        {/* <CompanySection /> */}
         <div id="contact"></div>
         <ContactSection />
       </div>
