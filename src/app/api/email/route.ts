@@ -17,7 +17,7 @@ export async function POST(request:NextRequest) {
    oauth2Client.setCredentials({
     refresh_token: tapeataleCreds.grt
 });
-const accessToken = oauth2Client.getAccessToken();
+const accessToken =  await oauth2Client.getAccessToken();
     
     const transport = nodemailer.createTransport({
         service:'gmail',
@@ -27,17 +27,9 @@ const accessToken = oauth2Client.getAccessToken();
         clientId: tapeataleCreds.gci,
         clientSecret: tapeataleCreds.gcs,
         refreshToken: tapeataleCreds.grt,
-        accessToken:accessToken
+        accessToken: accessToken.res?.data.access_token
         }
     });
-
-    // const transport = nodemailer.createTransport({
-    //     service:'gmail',
-    //     auth: {
-    //         user: tapeataleCreds.mailId,
-    //         pass: tapeataleCreds.mailPassword,
-    //       },
-    // });
 
     const mailOptions: Mail.Options = {
         from: 'contact@tapeatale.com',
