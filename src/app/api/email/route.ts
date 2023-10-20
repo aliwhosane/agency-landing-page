@@ -49,7 +49,7 @@ const accessToken =  await oauth2Client.getAccessToken();
     });
 
     try {
-        await sendMailPromise();
+        // await sendMailPromise();
         return NextResponse.json({message:'Email sent'});
     } catch(err) {
         console.log(err);
