@@ -87,8 +87,7 @@ const ContactSection = () => {
               <div className="flex flex-col">
                 <h2 className="text-2xl">Main Office</h2>
                 <p className="text-gray-400">
-                  Tower 49, Emaar Emerald Floors Premier , Sector 65, Gurugram,
-                  Haryana 122002
+                  6-A, WAY ROAD, LUCKNOW, Lucknow, Uttar Pradesh, India, 226001
                 </p>
               </div>
             </div>
