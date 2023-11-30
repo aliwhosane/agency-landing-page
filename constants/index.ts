@@ -54,16 +54,16 @@ export const footerLinks = [
 
   export const Services = [
     {
-      name:'Corporate Entertainment',
-      link:'services/entertainment',
-      desc:'',
-      image:'/entertainment.png'
-    },
-    {
       name:'Artist Management',
       link:'services/management',
       desc:'',
       image:'/management.png'
+    },
+    {
+      name:'Brand Collaborations',
+      link:'services/brand',
+      desc:'',
+      image:'/brand.png'
     },
     {
       name:'Training Writers',
@@ -78,16 +78,16 @@ export const footerLinks = [
       image:'/writing.png'
     },
     {
-      name:'Brand Collaborations',
-      link:'services/brand',
-      desc:'',
-      image:'/brand.png'
-    },
-    {
       name:'Corporate Workshop',
       link:'services/workshop',
       desc:'',
       image:'/workshop.png'
+    },
+    {
+      name:'Corporate Entertainment',
+      link:'services/entertainment',
+      desc:'',
+      image:'/entertainment.png'
     }
   ]
 
