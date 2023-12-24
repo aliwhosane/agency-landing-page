@@ -255,7 +255,7 @@ export const footerLinks = [
     desc:"Ishpreet Balbir's poetry is a journey through the landscapes of identity, culture, and self-discovery. With a keen eye for detail and a compassionate understanding of the human experience, Ishpreet's verses resonate deeply.",
     facebook: '',
     twitter: '',
-    instagram: 'https://www.instagram.com/mehak.mirza.prabhu/'
+    instagram: 'https://www.instagram.com/ishpreetbalbir/'
   },
   {
     name: 'Yahya Bootwala',
