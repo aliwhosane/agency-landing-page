@@ -283,6 +283,24 @@ export const footerLinks = [
     facebook: '',
     twitter: '',
     instagram: 'https://www.instagram.com/Hellyshah_/'
+  },
+  {
+    name: 'Nidhi Narwal',
+    image: '/artists/nidhinarwal.png',
+    profession:'Artist',
+    desc:'She is a well-known poet, storyteller, podcaster, and performer, commanding a social media following of nearly 2 million',
+    facebook: '',
+    twitter: '',
+    instagram: 'https://www.instagram.com/nidhi.narwal_/'
+  },
+  {
+    name: 'Priya Malik',
+    image: '/artists/priyamalik.png',
+    profession:'Artist',
+    desc:'Priya Malik is an award winning spoken word poet, storyteller and actor.',
+    facebook: '',
+    twitter: '',
+    instagram: 'https://www.instagram.com/priyasometimes/'
   }
 ]
 
