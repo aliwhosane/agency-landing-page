@@ -116,18 +116,18 @@ export const footerLinks = [
       sections: [{title: 'Campaign Overview', text:`The collaboration with OkCupid aligns with the dating app's core values of connecting people based on shared values, interests, and genuine connections. The campaign message resonates with OkCupid users who seek meaningful relationships and prioritize emotional depth over superficial ideals. The timing of the campaign coincides with Valentine's Day, a day traditionally associated with expressions of love. The campaign encourages user engagement amidst the mission of facilitating meaningful connections in the digital age. `}, {title: 'Content Theme', text:` Srithi Jha's narrative aims to inspire hope and positivity, suggesting that love, though sometimes unconventional or unexpected, has the power to touch hearts in profound ways. It encourages listeners to recognize that cheesy and corny expressions of love can be authentic and beautiful.`}],
       link: '/services/brand/okcupid'
     },
-    {
-      id:'netflix',
-      name:'Netflix',
-      image: '/netflix.svg',
-      desc: 'descriptions here',
-      stats: [{image: '/views.svg', title: 'Total Views',
-      value: '210K'},{image: '/likes.svg', title: 'Total Likes',
-      value: '21K'},{image: '/engagement.svg', title: 'Total Engmnt',
-      value: '600K'}],
-      sections: [{title: 'Campaign Overview', text:'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque harum, atque voluptatibus nam, voluptates quas nisi aut laborum, vero sequi iste quia minus? Dolorem ad hic culpa? Voluptatem, hic nostrum? Eaque harum, atque voluptatibus nam, voluptates quas nisi aut laborum, vero sequi'}, {title: 'Content Theme', text:'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque harum, atque voluptatibus nam, voluptates quas nisi aut laborum, vero sequi iste quia minus? Dolorem ad hic culpa? Voluptatem, hic nostrum? Eaque harum, atque voluptatibus nam, voluptates quas nisi aut laborum, vero sequi'}, {title: 'Challenges Faced', text:'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque harum, atque voluptatibus nam, voluptates quas nisi aut laborum, vero sequi iste quia minus? Dolorem ad hic culpa? Voluptatem, hic nostrum? Eaque harum, atque voluptatibus nam, voluptates quas nisi aut laborum, vero sequi'}],
-      link: '/services/brand/netflix'
-    },
+    // {
+    //   id:'netflix',
+    //   name:'Netflix',
+    //   image: '/netflix.svg',
+    //   desc: 'descriptions here',
+    //   stats: [{image: '/views.svg', title: 'Total Views',
+    //   value: '210K'},{image: '/likes.svg', title: 'Total Likes',
+    //   value: '21K'},{image: '/engagement.svg', title: 'Total Engmnt',
+    //   value: '600K'}],
+    //   sections: [{title: 'Campaign Overview', text:'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque harum, atque voluptatibus nam, voluptates quas nisi aut laborum, vero sequi iste quia minus? Dolorem ad hic culpa? Voluptatem, hic nostrum? Eaque harum, atque voluptatibus nam, voluptates quas nisi aut laborum, vero sequi'}, {title: 'Content Theme', text:'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque harum, atque voluptatibus nam, voluptates quas nisi aut laborum, vero sequi iste quia minus? Dolorem ad hic culpa? Voluptatem, hic nostrum? Eaque harum, atque voluptatibus nam, voluptates quas nisi aut laborum, vero sequi'}, {title: 'Challenges Faced', text:'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque harum, atque voluptatibus nam, voluptates quas nisi aut laborum, vero sequi iste quia minus? Dolorem ad hic culpa? Voluptatem, hic nostrum? Eaque harum, atque voluptatibus nam, voluptates quas nisi aut laborum, vero sequi'}],
+    //   link: '/services/brand/netflix'
+    // },
     {
       id:'amazon',
       name:'Amazon',
@@ -152,18 +152,18 @@ export const footerLinks = [
       sections: [{title: 'Campaign Overview', text:`The campaign taps into the universal experience of the "butterflies in your stomach" feeling and the excitement that accompanies confessing love. It evokes nostalgia and brings back memories of the initial stages of a romantic relationship. The partnership with Bumble underscores the theme of digital connections and love. Bumble, as a platform that encourages meaningful connections, aligns perfectly with the campaign's message of virtual relationships evolving into deep emotional bonds.`}, {title: 'Content Theme', text:`The campaign portrays the story of two lovers who bridge the gap between screens and create a genuine emotional connection. It captures the essence of how love transcends distance and finds a way to manifest itself through digital mediums. It encourages engagement with the hashtag #Lovewillfindaway. This hashtag not only encapsulates the campaign's theme but also encourages viewers to share their own stories of love and connection.`}],
       link: '/services/brand/bumble'
     },
-    {
-      id:'sweettruth',
-      name:'Sweet Truth',
-      image: '/sweettruth.svg',
-      desc: 'descriptions here',
-      stats: [{image: '/views.svg', title: 'Total Views',
-      value: '210K'},{image: '/likes.svg', title: 'Total Likes',
-      value: '21K'},{image: '/engagement.svg', title: 'Total Engmnt',
-      value: '600K'}],
-      sections: [{title: 'Campaign Overview', text:'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque harum, atque voluptatibus nam, voluptates quas nisi aut laborum, vero sequi iste quia minus? Dolorem ad hic culpa? Voluptatem, hic nostrum? Eaque harum, atque voluptatibus nam, voluptates quas nisi aut laborum, vero sequi'}, {title: 'Content Theme', text:'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque harum, atque voluptatibus nam, voluptates quas nisi aut laborum, vero sequi iste quia minus? Dolorem ad hic culpa? Voluptatem, hic nostrum? Eaque harum, atque voluptatibus nam, voluptates quas nisi aut laborum, vero sequi'}, {title: 'Challenges Faced', text:'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque harum, atque voluptatibus nam, voluptates quas nisi aut laborum, vero sequi iste quia minus? Dolorem ad hic culpa? Voluptatem, hic nostrum? Eaque harum, atque voluptatibus nam, voluptates quas nisi aut laborum, vero sequi'}],
-      link: '/services/brand/sweettruth'
-    },
+    // {
+    //   id:'sweettruth',
+    //   name:'Sweet Truth',
+    //   image: '/sweettruth.svg',
+    //   desc: 'descriptions here',
+    //   stats: [{image: '/views.svg', title: 'Total Views',
+    //   value: '210K'},{image: '/likes.svg', title: 'Total Likes',
+    //   value: '21K'},{image: '/engagement.svg', title: 'Total Engmnt',
+    //   value: '600K'}],
+    //   sections: [{title: 'Campaign Overview', text:'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque harum, atque voluptatibus nam, voluptates quas nisi aut laborum, vero sequi iste quia minus? Dolorem ad hic culpa? Voluptatem, hic nostrum? Eaque harum, atque voluptatibus nam, voluptates quas nisi aut laborum, vero sequi'}, {title: 'Content Theme', text:'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque harum, atque voluptatibus nam, voluptates quas nisi aut laborum, vero sequi iste quia minus? Dolorem ad hic culpa? Voluptatem, hic nostrum? Eaque harum, atque voluptatibus nam, voluptates quas nisi aut laborum, vero sequi'}, {title: 'Challenges Faced', text:'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque harum, atque voluptatibus nam, voluptates quas nisi aut laborum, vero sequi iste quia minus? Dolorem ad hic culpa? Voluptatem, hic nostrum? Eaque harum, atque voluptatibus nam, voluptates quas nisi aut laborum, vero sequi'}],
+    //   link: '/services/brand/sweettruth'
+    // },
     {
       id:'vivel',
       name:'Vivel',
@@ -188,18 +188,18 @@ export const footerLinks = [
       sections: [{title: 'Campaign Overview', text:`The campaign promotes the idea that there is potential for success and fulfillment in every profession and stream. It encourages individuals to envision their dreams as attainable realities and challenges them to pursue those dreams without fear.The campaign, delivered from one artist to another, speaks directly to individuals within the creative field. It acknowledges the challenges artists face in gaining recognition and respect, while also encouraging them to continue pursuing their passions.`}, {title: 'Content Theme', text:"The campaign's tagline, 'Ab Samjhauta Nahin', encapsulates the spirit of empowerment and determination. It signifies a shift from compromising on dreams to asserting one's right to pursue them unconditionally. It addresses the societal norms and conditioning that can hold women back from pursuing their dreams. It encourages women to challenge these norms and beliefs, uncondition their thinking, and create their own paths."}],
       link: '/services/brand/unicef'
     },
-    {
-      id:'amazonprime',
-      name:'Amazon Prime',
-      image: '/amazonprime.svg',
-      desc: 'descriptions here',
-      stats: [{image: '/views.svg', title: 'Total Views',
-      value: '210K'},{image: '/likes.svg', title: 'Total Likes',
-      value: '21K'},{image: '/engagement.svg', title: 'Total Engmnt',
-      value: '600K'}],
-      sections: [{title: 'Campaign Overview', text:'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque harum, atque voluptatibus nam, voluptates quas nisi aut laborum, vero sequi iste quia minus? Dolorem ad hic culpa? Voluptatem, hic nostrum? Eaque harum, atque voluptatibus nam, voluptates quas nisi aut laborum, vero sequi'}, {title: 'Content Theme', text:'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque harum, atque voluptatibus nam, voluptates quas nisi aut laborum, vero sequi iste quia minus? Dolorem ad hic culpa? Voluptatem, hic nostrum? Eaque harum, atque voluptatibus nam, voluptates quas nisi aut laborum, vero sequi'}, {title: 'Challenges Faced', text:'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque harum, atque voluptatibus nam, voluptates quas nisi aut laborum, vero sequi iste quia minus? Dolorem ad hic culpa? Voluptatem, hic nostrum? Eaque harum, atque voluptatibus nam, voluptates quas nisi aut laborum, vero sequi'}],
-      link: '/services/brand/amazonprime'
-    }
+    // {
+    //   id:'amazonprime',
+    //   name:'Amazon Prime',
+    //   image: '/amazonprime.svg',
+    //   desc: 'descriptions here',
+    //   stats: [{image: '/views.svg', title: 'Total Views',
+    //   value: '210K'},{image: '/likes.svg', title: 'Total Likes',
+    //   value: '21K'},{image: '/engagement.svg', title: 'Total Engmnt',
+    //   value: '600K'}],
+    //   sections: [{title: 'Campaign Overview', text:'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque harum, atque voluptatibus nam, voluptates quas nisi aut laborum, vero sequi iste quia minus? Dolorem ad hic culpa? Voluptatem, hic nostrum? Eaque harum, atque voluptatibus nam, voluptates quas nisi aut laborum, vero sequi'}, {title: 'Content Theme', text:'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque harum, atque voluptatibus nam, voluptates quas nisi aut laborum, vero sequi iste quia minus? Dolorem ad hic culpa? Voluptatem, hic nostrum? Eaque harum, atque voluptatibus nam, voluptates quas nisi aut laborum, vero sequi'}, {title: 'Challenges Faced', text:'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque harum, atque voluptatibus nam, voluptates quas nisi aut laborum, vero sequi iste quia minus? Dolorem ad hic culpa? Voluptatem, hic nostrum? Eaque harum, atque voluptatibus nam, voluptates quas nisi aut laborum, vero sequi'}],
+    //   link: '/services/brand/amazonprime'
+    // }
     
   ]
 
